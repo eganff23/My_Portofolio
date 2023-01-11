@@ -1,0 +1,59 @@
+
+  * {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    background-color: var(--color-background);
+    display: grid;
+    line-height: 1.5;
+    margin: 0;
+    min-block-size: 100vh;
+    padding: 5vmin;
+    place-items: center;
+    border-color: black;
+  }  
+  h1 {
+    font-size: large;
+    text-align: center;
+  }
+  h3 {
+    font-size: medium;
+  }
+  table {
+    border-collapse: collapse;
+    inline-size: 100%;
+  }
+  
+  td {
+    padding-block: 0.125em;
+  }
+  .table1 {
+    border-collapse: collapse;
+    inline-size: 100%;
+    border-style: outset;
+  }
+  
+  td {
+    padding: 15px;
+  }
+  button{
+  color: white;
+  position: relative;
+  display: inline-block;
+  background: #35a9db;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: none;
+  border : none; 
+  overflow: hidden;
+  }
